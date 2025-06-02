@@ -167,6 +167,11 @@ node_modules/
 .DS_Store
 *.bak
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+
 # RIA/Silverlight projects
 Generated_Code/
 

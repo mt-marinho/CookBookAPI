@@ -16,8 +16,4 @@
     <ProjectReference Include="..\CookBook.Aplication\CookBook.Aplication.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
