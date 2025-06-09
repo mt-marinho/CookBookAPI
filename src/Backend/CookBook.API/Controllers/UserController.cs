@@ -11,7 +11,7 @@ namespace CookBook.API.Controllers
     {
         [HttpPost]
         [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
-        public IActionResult Register(RequestRegisterUserJson request) 
+        public IActionResult Register(RequestRegisterUserJson request)
         {
             var useCase = new RegisterUserUseCase();
 
